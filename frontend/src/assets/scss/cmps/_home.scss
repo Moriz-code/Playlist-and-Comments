@@ -1,0 +1,4 @@
+.container {
+  min-height: 70vh;
+  @include flex-container($direction: column, $spacing: space-evenly, $alignment: center);
+}
